@@ -1,0 +1,38 @@
+Data files for Pereira et al. (2016):
+
+#################################################
+somaticMutations.txt 
+#################################################
+Non-silent mutations for 2433 primary breast tumours. 
+chr=chromosome
+vaf=variant allele fraction
+
+
+#################################################
+
+
+#################################################
+ascatSegments.txt 
+#################################################
+Allele-specific copy number as determined using ASCAT (Van Loo et al. 2010)
+chr=chromosome
+nMajor=copies of major allele
+nMinor=copies of minor allele
+purity=aberrant cell fraction
+
+
+#################################################
+
+
+#################################################
+ascatSegments_withoutCNVs.txt 
+#################################################
+Allele-specific copy number as determined using ASCAT (Van Loo et al. 2010).  
+CNVs (defined in Curtis et al. 2012) were removed as described in Pereira et al. (2016).
+chr=chromosome
+nMajor=copies of major allele
+nMinor=copies of minor allele
+purity=aberrant cell fraction
+
+
+#################################################
