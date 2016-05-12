@@ -1,4 +1,6 @@
-Data files for Pereira et al. (2016):
+Data files for "The somatic mutation profiles of 2,433 breast cancers refine their genomic and transcriptomic landscapes" (Pereira et al. 2016).
+
+Please note that these data may be updated as validation experiments are performed.    
 
 #################################################
 somaticMutations.txt 
@@ -6,6 +8,9 @@ somaticMutations.txt
 Non-silent mutations for 2433 primary breast tumours. 
 chr=chromosome
 vaf=variant allele fraction
+
+-Codon changes are not described for insertion/deletion events.
+
 
 
 #################################################
