@@ -1,0 +1,43 @@
+Data files for "The somatic mutation profiles of 2,433 breast cancers refine their genomic and transcriptomic landscapes" (Pereira et al. 2016).
+
+Please note that these data may be updated as validation experiments are performed.    
+
+#################################################
+somaticMutations.txt 
+#################################################
+Non-silent mutations for 2433 primary breast tumours. 
+chr=chromosome
+vaf=variant allele fraction
+
+-Codon changes are not described for insertion/deletion events.
+
+
+
+#################################################
+
+
+#################################################
+ascatSegments.txt 
+#################################################
+Allele-specific copy number as determined using ASCAT (Van Loo et al. 2010)
+chr=chromosome
+nMajor=copies of major allele
+nMinor=copies of minor allele
+purity=aberrant cell fraction
+
+
+#################################################
+
+
+#################################################
+ascatSegments_withoutCNVs.txt 
+#################################################
+Allele-specific copy number as determined using ASCAT (Van Loo et al. 2010).  
+CNVs (defined in Curtis et al. 2012) were removed as described in Pereira et al. (2016).
+chr=chromosome
+nMajor=copies of major allele
+nMinor=copies of minor allele
+purity=aberrant cell fraction
+
+
+#################################################
