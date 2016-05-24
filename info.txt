@@ -1,7 +1,8 @@
-Data files for "The somatic mutation profiles of 2,433 breast cancers refine their genomic and transcriptomic landscapes" (Pereira et al. 2016).
+Data files & R scripts for "The somatic mutation profiles of 2,433 breast cancers refine their genomic and transcriptomic landscapes" (Pereira et al. 2016).
 
 Please note that these data may be updated as validation experiments are performed.    
 
+Data files:
 #################################################
 somaticMutations.txt 
 #################################################
@@ -10,10 +11,18 @@ chr=chromosome
 vaf=variant allele fraction
 
 -Codon changes are not described for insertion/deletion events.
+#################################################
 
 
 
 #################################################
+somaticMutations_incNC.txt 
+#################################################
+As above, but includes silent mutations and non-exonic mutations.
+Mutations defined as being in ncRNAs (as determined by ASCAT) have locations
+=‘other’
+#################################################
+
 
 
 #################################################
@@ -24,9 +33,8 @@ chr=chromosome
 nMajor=copies of major allele
 nMinor=copies of minor allele
 purity=aberrant cell fraction
-
-
 #################################################
+
 
 
 #################################################
@@ -38,6 +46,24 @@ chr=chromosome
 nMajor=copies of major allele
 nMinor=copies of minor allele
 purity=aberrant cell fraction
+#################################################
+
 
 
 #################################################
+patientData.txt 
+#################################################
+Minimal dataset required to reproduce analyses in the main publication. 
+ER and HER2 status determined by IHC and gene expression (see paper).
+Complete clinical data for the METABRIC dataset are available at cBioPortal. 
+#################################################
+
+
+
+#################################################
+tumorIdMap.txt 
+#################################################
+Id mapping file to match samples in the published study with those from the previous
+METRIC studies.  
+#################################################
+
