@@ -69,9 +69,18 @@ METRIC studies.
 
 
 
-
 #################################################
 targetedIntervals.bed
 #################################################
 Intervals that were targeted for sequencing in the study.
-50bp padding was used for variant calling.  
+50bp padding was used for variant calling. 
+################################################
+
+
+
+################################################
+allSamples.gistic_curated.zip
+################################################
+GISTIC peaks obtained using segmented copy number data processed with ASCAT.
+Peaks curated manually; comments in file.
+################################################
